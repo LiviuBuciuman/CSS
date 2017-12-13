@@ -1,0 +1,64 @@
+#buscar {
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-image: url("../img/logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+input[type="search"]{
+    height: 45px;
+    border: transparent;
+    background-color: white;
+}
+button {
+    background-color: cadetblue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+button:hover {
+    background-color: rgb(59, 120, 121);
+}
+#img {
+    text-align: center;
+    margin-top: 50px;
+    width: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/*Menu*/
+#menu {
+    list-style:none;
+    margin:0;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 0;
+    text-align: center;
+    border-radius: 2px;
+}
+#menu li {
+    display:inline-block;
+    
+}
+#menu li a{
+    padding:10px 20px;
+    display:inline-block;
+    color:#fff;
+    text-decoration:none;  
+}
+#menu li a:hover{
+    background:#ccc;
+    color:#000;
+    /*Modificacion de color al pasar el cursor por encima del menu*/
+}
